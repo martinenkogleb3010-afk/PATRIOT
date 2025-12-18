@@ -1,0 +1,21 @@
+.main{
+  
+}
+.hero {
+    height: 100vh;
+    background: url('img/IMG_2409.JPEG') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #171de4;
+}
+.navbar-nav{ 
+    display: flex; 
+    justify-content: space-between;
+    width: 25%;
+    margin-left: 20px;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.308);
+}   
