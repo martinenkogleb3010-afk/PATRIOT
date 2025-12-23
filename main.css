@@ -48,10 +48,14 @@ header {
 .history h2 {
   color: #ffffff;
   margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .history .desc {
-  padding: 30px;
   background-color: #141826;
-  color: #d1d1d1;
+  color: red;
   font-size: 18px;
+  max-width: 600px;
+  padding: 30px;
+  margin: 0 auto;
 }
