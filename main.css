@@ -8,6 +8,7 @@
   justify-content: space-between;
   padding: 50px;
   background-color: #0a0d1b;
+  background-color: #171de4;
 }
 .navbar-nav {
   display: flex;
@@ -18,6 +19,7 @@
 header {
   background-color: rgba(0, 0, 0, 0.308);
 }
+
 .hero-content {
   display: flex;
   justify-content: center;
@@ -48,4 +50,37 @@ footer h2 {
   text-align: center;
   padding: 20px 0;
   color: #ffffff;
+  width: 100%;
+}
+
+.about-us {
+  padding: 50px 0;
+}
+
+.about-us p {
+  font-size: 18px;
+}
+
+.about-us h2 {
+  margin-bottom: 30px;
+}
+
+.history {
+  background-color: #0a0d1b;
+  padding: 100px 16px;
+}
+
+.history h2 {
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.history .desc {
+  background-color: #141826;
+  color: red;
+  font-size: 18px;
+  max-width: 600px;
+  padding: 30px;
+  margin: 0 auto;
 }
