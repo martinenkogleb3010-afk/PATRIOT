@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #0a0d1b;
 }
 
 header,
@@ -11,4 +12,12 @@ footer {
 a {
   text-decoration: none;
   color: rgb(255, 0, 0);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
 }

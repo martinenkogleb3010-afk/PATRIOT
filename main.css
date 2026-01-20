@@ -84,6 +84,15 @@ footer h2 {
   padding: 30px;
   margin: 0 auto;
 }
+
+h2 {
+  color: #ff0000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .staff-members {
   display: flex;
   justify-content: space-around;
@@ -105,4 +114,18 @@ footer h2 {
 }
 .staff-member h3 {
   margin-bottom: 10px;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  img {
+    max-width: 30%;
+  }
+}
+
+.contacts {
+  background-color: #3d403c;
+  color: red;
 }
