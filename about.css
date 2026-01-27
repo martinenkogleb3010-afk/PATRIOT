@@ -1,3 +1,10 @@
-.about{
-    background-color: blue;
+.about {
+  color: white;
+}
+
+ul,
+p,
+h2,
+h1 {
+  color: white !important;
 }
