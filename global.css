@@ -25,3 +25,31 @@ img {
 .nav-link {
   white-space: nowrap;
 }
+
+.accordion-button:not(.collapsed) {
+  background-color: #0e1220;
+  color: red;
+  box-shadow: inset 0 -1px 0 red;
+}
+
+.accordion-body,
+.accordion-item,
+.accordion-button.collapsed {
+  background-color: #1b223c !important;
+  color: red !important;
+  border-color: black !important;
+}
+
+.blog-element {
+}
+
+.blog-element .card {
+  padding: 60px 20px;
+  background-color: black;
+  color: white;
+}
+
+footer {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}

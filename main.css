@@ -68,6 +68,7 @@ footer h2 {
 .history {
   background-color: #0a0d1b;
   padding: 100px 16px;
+  padding-top: 0;
 }
 
 .history h2 {
@@ -85,7 +86,7 @@ footer h2 {
   margin: 0 auto;
 }
 
-h2 {
+h2:not(.accordion-header) {
   color: #ff0000;
   margin-top: 30px;
   margin-bottom: 30px;
@@ -126,6 +127,26 @@ h2 {
 }
 
 .contacts {
-  background-color: #3d403c;
-  color: red;
+  text-align: center;
+  padding: 30px 0;
+  background-color: #3e3f3a;
+  color: white;
+}
+
+nav a {
+  color: red !important;
+}
+
+.about-block {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  color: white;
+
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
